@@ -81,6 +81,9 @@ button:hover {
   background: url('img/back.png') no-repeat;
   background-position: center;
   background-size: cover;
+  /* flex-direction: column-reverse;
+  padding: 50px 10px;
+  position: relative; */
   /* border-radius: 30px; */
 }
 
@@ -229,7 +232,7 @@ footer {
   .about {
       flex-direction: column-reverse;
       padding: 50px 10px;
-  }
+        }
 
   .about h1 {
       font-size: 36px;
@@ -488,4 +491,15 @@ footer {
 .promo__text button i {
   font-size: 15px;
   margin-left: 5px;
+}
+
+.about {
+  position: relative;
+}
+
+.orb-canvas {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  right: 0;
 }
